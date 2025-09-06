@@ -1,22 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Student {
-    String name;
-    int age;
-    String id;
-
-    Student(String name, int age, String id) {
-        this.name = name;
-        this.age = age;
-        this.id = id;
-    }
-
-    public String toString() {
-        return "Student ID: " + id + ", Name: " + name + ", Age: " + age;
-    }
-}
-
 public class StudentManager {
     public static void main(String[] args) {
         ArrayList<Student> students = new ArrayList<>();
@@ -64,5 +48,21 @@ public class StudentManager {
         } while (choice != 3);
 
         scanner.close();
+    }
+}
+
+class Student {
+    String name;
+    int age;
+    String id;
+
+    Student(String name, int age, String id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+    }
+
+    public String toString() {
+        return "Student ID: " + id + ", Name: " + name + ", Age: " + age;
     }
 }

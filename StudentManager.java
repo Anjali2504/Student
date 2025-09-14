@@ -54,13 +54,13 @@ public class StudentManager {
 class Student {
     String name;
     int age;
-    String id;
+    String lastname;
     int roll;
 
-    Student(String name, int age, String id, int roll) {
+    Student(String name, int age, String lastname, int roll) {
         this.name = name;
         this.age = age;
-        this.id = id;
+        this.lastname = lastname;
         this.roll = roll;
     }
 

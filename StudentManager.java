@@ -55,11 +55,13 @@ class Student {
     String name;
     int age;
     String id;
+    int roll;
 
-    Student(String name, int age, String id) {
+    Student(String name, int age, String id, int roll) {
         this.name = name;
         this.age = age;
         this.id = id;
+        this.roll = roll;
     }
 
     public String toString() {
